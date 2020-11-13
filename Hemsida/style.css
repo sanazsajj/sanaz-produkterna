@@ -1,25 +1,27 @@
-body{
-    height: 100%;
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    position: relative;
+    font-family: 'Roboto', sans-serif;
 }
 
 .container {
     display: flex;
-    
     font-size: 15px;
     margin-top: -30px;
-    margin-left: -30px;
-    margin-right: -8px;
     background-color: #BFB3D7;
-    padding: 25px;
-    
-    
+    padding: 25px;  
 }
 
 .item {
     flex-grow: 1;
     text-align: left;
-    margin-left: 80px;
-    margin-top: 30px;  
+    margin-left: 60px;
+    margin-top: 30px;
+
 }
 
 .item + .item {
@@ -28,8 +30,7 @@ body{
 
 .icon {
     margin-top: 30px;
-    margin-right: 40px;
-
+    margin-right: 60px;
 }
 
 a{
@@ -46,6 +47,8 @@ footer{
     border-style: solid none none;
     margin-top: 50px;
     color: #aea1c9;
+    padding: 15px;
+    font-size: 13px;
 }
 
 .social-media-icons {
@@ -58,6 +61,20 @@ footer{
     font-size: 20px;
 }
 
+.heading-container2 {
+    margin-left: 120px;
+    font-size: 20px;
+}
+
+.heading-container3 {
+    position: relative;
+    text-align: right;
+    margin-right: 130px;
+    bottom: 30px;
+    font-size: 14px;
+    color: #aea1c9;
+}
+
 h1 {
     flex-grow: 1;
     margin-top: 50px;
@@ -68,13 +85,69 @@ h1 {
     text-align: center;
 }
 
-.image {
+.img-container2 {
+    text-align: center;
+    margin-top: -25px;
+}
+
+.img {
     flex-grow: 1;
     height: 300px;
     margin-bottom: 20px;
+    margin-top: 30px;
 }
 
-.image + .image {
+.img + .img {
     margin-left: 5%;
+}
+
+.text-container {
+    text-align: center; 
+    font-size: 15px;
+}
+
+.text {
+    color: #aea1c9;
+}
+
+.img-text-container {
+    display: flex;
+    margin-left: 115px;
+    margin-top: -10px;
+}
+
+.img-text {
+    flex-grow: 1;
+    height: 100px;
+    color: #aea1c9;
+    font-size: 20px;
+}
+
+.img-text + .img-text {
+    margin-left: -5%;
+}
+
+.cart {
+    position: relative;
+    left: 200px;
+}
+
+.desc-container {
+    margin: 2% 10%;
+    color: #aea1c9;
+}
+
+.desc-header {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.desc {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.details {
+    margin-bottom: 30px;
 }
 
